@@ -12,7 +12,7 @@ public class HoverBadge : MonoBehaviour
     {
     Ray ray = Camera.main.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
     RaycastHit hit;
-    if(GetComponent<Collider>().Raycast(ray, out hit, 20f)) 
+    if(GetComponent<Collider>().Raycast(ray, out hit, 2.5f)) 
     {
         
         print("hover on" + gameObject.name); 

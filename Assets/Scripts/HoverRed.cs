@@ -2,13 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class HoverObject : MonoBehaviour
+public class HoverRed : MonoBehaviour
 {
   
- 
-    // Update is called once per frame
-    public GameObject Inspection;
+     public GameObject Inspection;
     public InspectionObject inspectionObj;
     public int index;
     void Update()
@@ -19,7 +16,7 @@ public class HoverObject : MonoBehaviour
     {
         
         print("hover on" + gameObject.name); 
-        SceneManager.LoadScene("AbortionImage", LoadSceneMode.Single);
+        SceneManager.LoadScene("RedFlowerPot", LoadSceneMode.Single);
         if(Input.GetMouseButtonDown(0))
         {
             Inspection.SetActive(true);
