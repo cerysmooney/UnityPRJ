@@ -26,5 +26,26 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RedFlowerPot.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SBES.unity
+    guid: 7f5de90166f00084eb0210168a3929b2
+  - enabled: 1
+    path: Assets/Scenes/UseVote.unity
+    guid: 22877d7810033ee46a321892e7e464db
+  - enabled: 1
+    path: Assets/Scenes/VotesForWomen.unity
+    guid: 12e1a7e0cb3ee734e9aeaff9e0411cb8
+  - enabled: 1
+    path: Assets/Scenes/President.unity
+    guid: 254e0918dc87cec41b468652d2840129
+  - enabled: 1
+    path: Assets/Scenes/MargretSanglar.unity
+    guid: 52c197192b2ed8b4da2863b0ddd7538c
+  - enabled: 1
+    path: Assets/Scenes/BirthControlReview.unity
+    guid: ceb32498cb56cf14190416376787e43c
+  - enabled: 1
+    path: Assets/Scenes/BirthControl.unity
+    guid: e114ed0b862be864485c325ffcc7429b
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
