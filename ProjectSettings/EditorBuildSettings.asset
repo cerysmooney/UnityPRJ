@@ -47,5 +47,29 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BirthControl.unity
     guid: e114ed0b862be864485c325ffcc7429b
+  - enabled: 1
+    path: Assets/Scenes/RoeVWade.unity
+    guid: e9e58e4fb9d7b974389b5bba6f2f16cb
+  - enabled: 1
+    path: Assets/Scenes/ProVsConRoe.unity
+    guid: 6bed77016c967e44aa5ef39d4bd621e1
+  - enabled: 1
+    path: Assets/Scenes/AbortionPill.unity
+    guid: 315572141568fcb408c2e30d97671a2d
+  - enabled: 1
+    path: Assets/Scenes/MyBodyMyChoice.unity
+    guid: b1741ce7754e9e947a6dc021bd592a37
+  - enabled: 1
+    path: Assets/Scenes/Newspaper.unity
+    guid: 677762dbd30475f4a95e8a04fae725b2
+  - enabled: 1
+    path: Assets/Scenes/ProtectRoe.unity
+    guid: a4deef96ac6d2d7438652504e3c5cba7
+  - enabled: 1
+    path: Assets/Scenes/MustGo.unity
+    guid: 85f691cb4de8bbb419aa8e34d77e8b62
+  - enabled: 1
+    path: Assets/Scenes/HumanRight.unity
+    guid: 0cd2d2f8bee27114ea392e9955515b12
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

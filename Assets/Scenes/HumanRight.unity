@@ -369,10 +369,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A Suffragette Ribbon worn by women of the early 1900''s with a symbolic
-    colour scheme:
+  m_text: 'Woman protesting the overturning of Roe V Wade with a sign saying "Abortion
+    is a Human Right"
 
-    green for hope, white for purity, and purple for loyalty.'
+    Late June, 2022'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -435,7 +435,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -337.52148, w: -463.29956}
+  m_margin: {x: 0, y: 0, z: -337.52148, w: -186.72504}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -623,7 +623,7 @@ RectTransform:
   m_GameObject: {fileID: 1005557130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7.808208, y: 10.322992, z: 10.322992}
+  m_LocalScale: {x: 11.786567, y: 10.322992, z: 10.322992}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9672018}
@@ -631,7 +631,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -5}
+  m_AnchoredPosition: {x: -287, y: -5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1005557132
@@ -654,7 +654,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 72885c21381887c42896d3e0fcdfc3c7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1e60f03abef73ec44b707ef34707e48b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

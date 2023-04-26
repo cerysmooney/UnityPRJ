@@ -5,6 +5,6 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
  public void MoveToScene(int sceneID){
-    SceneManager.LoadScene(sceneID);
+    SceneManager.LoadScene("Sms2Prj");
  }
 }
