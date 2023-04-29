@@ -4,25 +4,41 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class HoverSBES : MonoBehaviour
-
 {
-  
-     public GameObject Inspection;
+    private GameObject player;
+    public GameObject Inspection;
     public InspectionObject inspectionObj;
     public int index;
+
+public string sceneName;
+
+void Start() 
+{
+   player =  GameObject.FindGameObjectWithTag("Player");
+  
+}
+
     void Update()
     {
     Ray ray = Camera.main.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
     RaycastHit hit;
     if(GetComponent<Collider>().Raycast(ray, out hit, 4.5f)) 
     {
-        
-        print("hover on" + gameObject.name); 
-        SceneManager.LoadScene("SBES", LoadSceneMode.Single);
+      
+
+      
+      
+       SavePosition.setPosition(player.transform.position, player.transform.rotation);
+       
+        Debug.Log(player); 
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         if(Input.GetMouseButtonDown(0))
         {
             Inspection.SetActive(true);
         }
+        
     }
+
+
     }
 }
