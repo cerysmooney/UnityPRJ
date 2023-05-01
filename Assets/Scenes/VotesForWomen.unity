@@ -672,6 +672,7 @@ GameObject:
   - component: {fileID: 1061774744}
   - component: {fileID: 1061774743}
   - component: {fileID: 1061774747}
+  - component: {fileID: 1061774748}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -779,6 +780,34 @@ MonoBehaviour:
   SBES: 
   Badge: 
   UseVote: 
+  RedFlowerPot: 
+  YellowFlowerPot: 
+  President: 
+  AlicePaul: 
+  Banner: 
+  MargretSanglar: 
+  BirthControl: 
+  BirthControlReview: 
+  AbortionImage: 
+  RoeVWade: 
+  ProVsConRoe: 
+  MyBodyMyChoice: 
+  AbortionPill: 
+  Newspaper: 
+  ProtectRoe: 
+  MustGo: 
+--- !u!114 &1061774748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061774742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e61f500d2ef13884ab745e7e3b6e7973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1549303360
 GameObject:
   m_ObjectHideFlags: 0

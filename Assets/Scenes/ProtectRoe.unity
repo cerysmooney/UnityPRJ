@@ -441,7 +441,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 529, y: -466}
+  m_AnchoredPosition: {x: 659, y: -72}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1279310858
@@ -657,6 +657,7 @@ GameObject:
   - component: {fileID: 1479548085}
   - component: {fileID: 1479548084}
   - component: {fileID: 1479548088}
+  - component: {fileID: 1479548089}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -767,6 +768,32 @@ MonoBehaviour:
   RedFlowerPot: 
   YellowFlowerPot: 
   President: 
+  AlicePaul: 
+  Banner: 
+  MargretSanglar: 
+  BirthControl: 
+  BirthControlReview: 
+  AbortionImage: 
+  RoeVWade: 
+  ProVsConRoe: 
+  MyBodyMyChoice: 
+  AbortionPill: 
+  Newspaper: 
+  ProtectRoe: 
+  MustGo: 
+  HumanRight: 
+--- !u!114 &1479548089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479548083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e61f500d2ef13884ab745e7e3b6e7973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1960406545
 GameObject:
   m_ObjectHideFlags: 0

@@ -22,7 +22,7 @@ void Start()
     {
     Ray ray = Camera.main.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
     RaycastHit hit;
-    if(GetComponent<Collider>().Raycast(ray, out hit, 4.5f)) 
+    if(GetComponent<Collider>().Raycast(ray, out hit, 3.5f)) 
     {
       
 
@@ -36,6 +36,7 @@ void Start()
         {
             Inspection.SetActive(true);
         }
+    
         
     }
 

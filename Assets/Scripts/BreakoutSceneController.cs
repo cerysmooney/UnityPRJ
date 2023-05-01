@@ -24,6 +24,7 @@ public class BreakoutSceneController : MonoBehaviour
     public string Newspaper;
     public string ProtectRoe;
     public string MustGo;
+    public string HumanRight;
     void Start()
     {
         Cursor.visible = true;
